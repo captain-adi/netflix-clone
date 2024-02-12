@@ -33,7 +33,7 @@ body {
 
 #container {
 
-   height: 600px;
+   height: 650px;
    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./NetFllix material/background.jpg");
    background-position: center;
    background-size: cover;
@@ -82,6 +82,7 @@ body {
 #input-email input {
    height: 50px;
    border-width: 1px;
+   border-color: white;
    padding: 0px 100px 0px 15px;
    background-color: rgba(0, 0, 0, 0.4);
    border-radius: 7px;
