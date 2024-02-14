@@ -38,7 +38,6 @@ body {
    background-position: center;
    background-size: cover;
 
-
 }
 
 #content {
@@ -95,9 +94,10 @@ body {
    background-color: red;
    color: white;
    padding: 7px 20px;
-   font-size: 25px;
+   font-size: 23px;
+   font-weight: 500;
    margin-left: 7px;
-   border-radius: 9px;
+   border-radius: 3px;
 }
 
 .getstarted:hover {
@@ -127,4 +127,55 @@ height: 350px ;
 }
 .second , .fourth{
    flex-direction: row-reverse;
+}
+
+.divide{
+height: 6px;
+background-color: rgba(15, 2, 2, 0.849);
+
+}
+
+/* Frequently Asked Questions */
+#faq{
+   background-color: black;
+}
+
+#faq h2{
+   height: 100px;
+   text-align: center;
+   font-size: 48px;
+   font-weight: 900;
+   color: white;
+   margin-top: 6px;
+  padding-top: 90px;
+  margin-bottom: 0px;
+}
+.faqbox{
+   display: flex;
+   padding: 20px;
+   justify-content: space-between;
+   color:white;
+   text-align: center;
+   border: 3px solid black;
+   font-size: 24px;
+   font-weight: 400; 
+   background-color: rgb(58, 44, 44);
+   max-width: 75vw;
+   margin: auto;
+   cursor: pointer;
+   transition: all 1s;
+   
+}
+.faqbox:hover{
+   background-color: rgb(92, 77, 77);
+}
+
+/* second mail */
+
+#secondmail{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding-top: 30px;
+   padding-bottom: 50px;
 }
