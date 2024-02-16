@@ -243,3 +243,30 @@ cursor: pointer;
    padding: 20px 185px;
    padding-bottom: 80px;
 }
+
+/* media query  */
+
+@media screen and (max-width:700px) {
+   .getstarted{
+      margin: 10px;
+   }
+   #faq h2{
+      font-size: 35px;
+   }
+   #logo{
+      height: 25px;
+
+   }
+   .contentab div{
+      width: 100%;
+      text-align: center;
+   }
+   .contentab img{
+      height: 300px;
+   }
+   .netflixindia{
+      margin-left: 10px;
+      border: ;
+   }
+  
+   } 
